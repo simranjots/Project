@@ -1,0 +1,337 @@
+body {
+  font-family: "Ubuntu", sans-serif;
+  color: #cb202d;
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+  color: #f4f4f2;
+}
+
+a:hover {
+  color: #2d2d2d;
+}
+
+ul {
+  font-size: 1.1rem;
+  float: right;
+  margin: 0px;
+}
+
+li {
+  padding: 0px;
+  display: inline;
+}
+
+li a {
+  line-height: 70px;
+  padding: 5px 15px;
+}
+
+/* Navigation Bar ~~ */
+
+.brand {
+  font-family: "Poppins", sans-serif;
+  font-size: 1.8rem;
+  margin-right: 10px;
+  float: left;
+}
+
+.navigation-container {
+  width: 100%;
+  margin: 0;
+  height: 70px;
+}
+
+.navigation-bar {
+  background-color: #cb202d;
+}
+
+.navigation-bar img {
+  height: 70px;
+  float: left;
+}
+
+/* Main Banner styling */
+
+.banner {
+  height: 500px;
+  width: 100%;
+}
+
+.banner-container {
+  color: #2d2d2d;
+  position: relative;
+}
+
+.text-centered h1 {
+  font-size: 6rem;
+  margin: 0 auto;
+}
+
+.text-centered p {
+  font-weight: bold;
+  font-size: 1.3rem;
+  margin: 0 auto 50px auto;
+}
+
+.text-centered {
+  position: absolute;
+  top: 35%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Mission section styling */
+
+.mission-container {
+  margin-top: 50px;
+  background-color: #cb202d;
+  color: #f4f4f2;
+  padding: 20px;
+}
+
+.mission-container h3,
+.snapshot-container h3,
+.team-container h3,
+.get-in-touch h3 {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.mission-container p {
+  font-size: 1.2rem;
+  padding: 0 100px;
+}
+
+/* How to order a meal Section */
+
+* {
+  box-sizing: border-box;
+}
+
+.row h1 {
+  color: #cb202d;
+  font-family: "ubuntu", sans-serif;
+  margin-top: 50px;
+  text-align: center;
+  font-size: 1.7rem;
+}
+
+/* ~~ Create four equal columns that floats next to each other ~~*/
+
+.column {
+  height: 300px;
+  float: left;
+  margin-left: 100px;
+  width: 40%;
+  padding: 10px;
+  text-align: left;
+}
+
+.column img {
+  width: 250px;
+  float: left;
+  height: 250px;
+  padding-right: 20px;
+}
+
+.row:after,
+.clearfix:after,
+.clearfix1:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+/* Snapshot Section */
+
+/* ~~ Snapshot Container ~~*/
+
+.snapshot-container {
+  height: 100px;
+  margin-top: 50px;
+  background-color: #cb202d;
+  color: #f4f4f2;
+  padding: 20px;
+}
+
+/* ~~ Snapshot Gallary ~~*/
+
+* {
+  box-sizing: border-box;
+}
+
+.gallery,
+.gallery1,
+.instructgallery {
+  border: 2px solid #cb202d;
+}
+
+.gallery:hover,
+.gallery1:hover,
+instructgallery:hover {
+  border: 2px solid #2d2d2d;
+}
+
+.gallery img {
+  width: 100%;
+  height: 500px;
+}
+
+.description {
+  font-size: 0.8rem;
+  padding: 15px;
+}
+
+.responsive {
+  margin-left: 85px;
+  margin-top: 20px;
+  padding: 0 6px;
+  float: left;
+  width: 25%;
+}
+
+.gallery1 img {
+  width: 100%;
+  height: 200px;
+}
+
+.responsive1 {
+  margin: 20px 25px 20px 40px;
+  padding: 0 6px;
+  float: left;
+  width: 20%;
+}
+.instructgallery img {
+  width: 100%;
+  height: 400px;
+}
+
+.instructresponsive1 {
+  margin-top: 20px;
+  float: left;
+  width: 25%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+/* Meet the Team Section */
+
+/* Team section styling */
+
+.team-container {
+  margin-top: 50px;
+  background-color: #cb202d;
+  color: #f4f4f2;
+  padding: 20px;
+}
+
+.team-container p,
+.get-in-touch p {
+  font-size: 1.2rem;
+  padding: 0 100px;
+}
+
+/* Get In Touch Section */
+
+.get-in-touch {
+  margin-top: 50px;
+  height: 440px;
+  background-color: #cb202d;
+  color: #f4f4f2;
+  padding: 20px 20px 0px 20px;
+}
+
+.get-in-touch-connect-form {
+  float: left;
+  text-align: center;
+  margin-left: 100px;
+}
+
+.get-in-touch-contact {
+  float: right;
+  text-align: center;
+}
+
+hr {
+  margin: 20px auto;
+  width: 200px;
+}
+
+.get-in-touch p {
+  margin-top: 30px;
+}
+
+.get-in-touch a {
+  padding: 10px;
+}
+
+.get-in-touch a:hover {
+  color: #2d2d2d;
+}
+
+input,
+textarea {
+  border: 1px solid rgba(252, 252, 252, 0.4);
+  color: #cb202d;
+  background-color: #f4f4f2;
+  width: 400px;
+  border-radius: 3px;
+  padding: 10px 15px;
+  margin: 0 auto 5px 0;
+  display: block;
+  text-align: left;
+  font-size: 18px;
+  font-weight: 300;
+}
+
+.copyright-text {
+  padding-top: 75px;
+}
+
+/* Button Stylling*/
+
+.btn {
+  background: #cb202d;
+  border-radius: 28px;
+  border: 2px solid #cb202d;
+  box-shadow: 1px 5px #2d2d2d;
+  color: #f4f4f2;
+  font-size: 19px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.footer-btn {
+  color: #cb202d;
+  background-color: #f4f4f2;
+  appearance: none;
+  outline: 0;
+  border: 0;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  border-radius: 3px;
+  width: 150px;
+  font-size: 18px;
+}
+
+.btn:hover {
+  background: #2d2d2d;
+  border: 2px solid #2d2d2d;
+  box-shadow: 1px 5px #cb202d;
+}
